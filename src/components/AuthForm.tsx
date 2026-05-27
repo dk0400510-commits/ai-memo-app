@@ -59,7 +59,7 @@ export default function AuthForm({ onAuthSuccess }: AuthFormProps) {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
       <div className="w-full max-w-md bg-white rounded-xl shadow-sm border border-gray-200 p-8">
         <div className="mb-8 text-center">
-          <h1 className="text-3xl font-bold text-gray-900">메모 앱</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Memo App</h1>
           <p className="mt-2 text-sm text-gray-600">
             Supabase 계정으로 로그인하고 메모를 관리하세요.
           </p>
