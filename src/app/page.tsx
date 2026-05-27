@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import { User } from '@supabase/supabase-js'
 import { useMemos } from '@/hooks/useMemos'
 import { Memo, MemoFormData } from '@/types/memo'
@@ -141,9 +142,13 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-gray-900">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors"
+                  aria-label="홈으로 이동"
+                >
                   📝 Memo App
-                </h1>
+                </Link>
               </div>
             </div>
 
