@@ -23,9 +23,9 @@
     "@supabase/ssr": "^0.10.3",
     "@supabase/supabase-js": "^2.106.2",
     "@tailwindcss/typography": "^0.5.19",
-    "next": "15.4.4",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
     "uuid": "^10.0.0"
@@ -39,7 +39,7 @@
     "@types/react-dom": "^19",
     "@types/uuid": "^10.0.0",
     "eslint": "^9",
-    "eslint-config-next": "15.4.4",
+    "eslint-config-next": "^16.2.6",
     "prettier": "^3.6.2",
     "tailwindcss": "^4",
     "typescript": "^5"
